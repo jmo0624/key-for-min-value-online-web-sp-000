@@ -5,7 +5,8 @@ silverware = {spoons: 10, forks: 20, knives: 15}
 def key_for_min_value(hash)
   lowest_key = nil
   lowest_value = nil
-  hash.each do
+  hash.each do |key, value|
+    if lowest_value == nil || 
   
 
 end
